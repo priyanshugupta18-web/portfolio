@@ -1,0 +1,13 @@
+About Me
+
+Hi, I'm Priyanshu Gupta, a passionate Frontend Developer, Data Analysis, and Machine Learning enthusiast who enjoys building meaningful digital experiences. I love transforming ideas into interactive and visually appealing web applications while ensuring performance, responsiveness, and clean code.
+
+My journey in technology started with web development, where I developed strong skills in HTML, CSS, JavaScript, and modern UI design. I enjoy crafting responsive interfaces that provide smooth and engaging user experiences.
+
+Alongside frontend development, I have a deep interest in data analysis and machine learning. I enjoy exploring datasets, extracting insights, and building intelligent models that can help solve real-world problems. Working with data has helped me develop analytical thinking and a problem-solving mindset.
+
+I believe in continuous learning and experimentation. Whether it's designing a user interface, analyzing data trends, or training machine learning models, I enjoy the process of building, improving, and innovating.
+
+My goal is to become a versatile developer who bridges the gap between user experience and intelligent systems, creating applications that are both visually appealing and data-driven.
+
+Outside of coding, I enjoy exploring new technologies, working on personal projects, and constantly improving my technical skills.

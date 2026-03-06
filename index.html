@@ -1,63 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Priyanshu Gupta - Personal Portfolio</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        body{
-            background-color: rgb(137, 188, 209);
+
+        body {
+            background-color: rgb(2, 1, 32);
             color: white;
-            font-family: poppins, sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
-        nav{
+
+        /* NAVBAR */
+
+        nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            height : 80px;
-            background-color:  rgb(41, 150, 197);
+            height: 80px;
+            background-color: rgb(2, 1, 32);
+        }
 
-        }
-        .left{
+        .left {
             font-size: 1.5rem;
+            font-weight: 500;
         }
-        nav ul{
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: rgb(169, 104, 230);
+        }
+
+        /* HERO SECTION */
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            line-height: 1.3;
+        }
+
+        .purple {
+            color: rgb(169, 104, 230);
+        }
+
+        /* PROFILE IMAGE CARD */
+
+        .profile-img {
+            width: 360px;
+            height: 460px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: translateY(-10px);
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* RIGHT SECTION ALIGNMENT */
+
+        .rightSection {
             display: flex;
             justify-content: center;
         }
-        nav ul li{
-            list-style: none;
-            margin: 0px 23px;
-            cursor: pointer;
+
+        #element {
+            color: rgb(169, 104, 230);
+        }
+
+        #Me {
+            color: rgb(169, 104, 230);
+        }
+
+        .secondSection {
+            padding: 100px 10%;
+            background: #0a0826;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+        }
+
+        .about-img img {
+            width: 350px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .about-content h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .about-content h2 span {
+            color: #a968e6;
+        }
+
+        .about-content h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #ddd;
+        }
+
+        .about-content p {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+            color: #cfcfcf;
+        }
+
+        .skills {
+            margin-top: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #171055;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 28px;
+            background: #a968e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #8c4ed4;
         }
     </style>
 </head>
+
 <body>
+
     <header>
+
         <nav>
+
             <div class="left">Portfolio</div>
+
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me</a></li>
                 </ul>
             </div>
+
         </nav>
+
     </header>
+
     <main>
-        <section class="first">
-            <div class="leftSection"></div>
-            <div class="rightSection"></div>
+
+        <section class="firstSection">
+
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Priyanshu Gupta</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+            </div>
+
+            <div class="rightSection">
+
+                <div class="profile-img">
+                    <img src="mypic.jpeg" alt="Priyanshu Gupta">
+                </div>
+
+            </div>
+
         </section>
+
+        <section class="secondSection">
+
+            <div class="about-container">
+
+                <div class="about-img">
+                    <img src="mypic.jpeg" alt="Priyanshu Gupta">
+                </div>
+
+                <div class="about-content">
+
+                    <h2>About <span id="Me">Me</span></h2>
+
+                    <h3>Frontend Developer</h3>
+
+                    <p>
+                        I am a passionate web developer focused on building modern,
+                        responsive and user-friendly websites. I enjoy transforming
+                        ideas into real digital experiences using clean and efficient code.
+                    </p>
+
+                    <p>
+                        I specialize in HTML, CSS and JavaScript and I am constantly
+                        learning new technologies to improve my development skills.
+                    </p>
+
+                    <div class="skills">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="aboutme.txt" download="Priyanshu-Gupta-About.txt" class="btn">
+                        Read More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Data Analyst', 'ML Enthusiast', 'Python Developer'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
 </body>
+
 </html>
