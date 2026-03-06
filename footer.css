@@ -1,0 +1,43 @@
+       /* FOOTER */
+
+       .footer {
+           background: #0a0826;
+           padding: 40px 10%;
+           text-align: center;
+           margin-top: 80px;
+       }
+
+       .footer h3 {
+           font-size: 22px;
+           margin-bottom: 10px;
+       }
+
+       .footer p {
+           color: #cbd5e1;
+           margin-bottom: 20px;
+       }
+
+       /* SOCIAL LINKS */
+
+       .social-links {
+           margin-bottom: 20px;
+       }
+
+       .social-links a {
+           margin: 0 15px;
+           text-decoration: none;
+           color: #8c4ed4;
+           font-weight: 500;
+           transition: 0.3s;
+       }
+
+       .social-links a:hover {
+           color: white;
+       }
+
+       /* COPYRIGHT */
+
+       .footer .copyright {
+           font-size: 14px;
+           color: #94a3b8;
+       }

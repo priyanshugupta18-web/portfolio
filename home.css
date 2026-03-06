@@ -1,0 +1,57 @@
+ /* HERO SECTION */
+
+        .Home {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            line-height: 1.3;
+        }
+
+        .purple {
+            color: rgb(169, 104, 230);
+        }
+
+        /* PROFILE IMAGE CARD */
+
+        .profile-img {
+            width: 360px;
+            height: 460px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: translateY(-10px);
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* RIGHT SECTION ALIGNMENT */
+
+        .rightSection {
+            display: flex;
+            justify-content: center;
+        }
+
+        #element {
+            color: rgb(169, 104, 230);
+        }
+
+        #Me {
+            color: rgb(169, 104, 230);
+        }
