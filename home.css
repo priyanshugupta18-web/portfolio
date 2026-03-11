@@ -60,3 +60,21 @@
             text-decoration: none;
             color: white;
         }
+        .socialmedialinks{
+            display: grid;
+            width: 10%;
+            grid-template-columns: auto auto auto;
+            margin-top: 1vw;
+            align-items: center;
+        }
+        .socialmedialinks a{
+            margin: 0 0.5vw;
+
+        }
+        .briefintro{
+            display: flex;
+            width: 100%;
+            font-family: sans-serif;
+            font-size: 2vw;
+            margin-top: 2vw;
+        }
