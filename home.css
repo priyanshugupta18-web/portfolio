@@ -78,3 +78,26 @@
             font-size: 2vw;
             margin-top: 2vw;
         }
+        .resumebtn{
+            display: flex;
+            justify-content: center;
+            /* color: white; */
+            align-items: center;
+            font-family: monospace;
+            font-size: 1.8vw;
+            width: 25%;
+            height: 8vh;
+            margin-top: 1vw;
+            margin-left: 1vw;
+            background-color: rgb(169, 104, 230);
+            /* border: 2px solid rgb(169, 104, 230); */
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+        .resumebtn a{
+            text-decoration: none;
+            color: white;
+        }
+        .resumebtn:hover{
+            background-color: rgb(39, 20, 90);
+        }
