@@ -23,17 +23,17 @@
         /* PROFILE IMAGE CARD */
 
         .profile-img {
-            width: 360px;
-            height: 460px;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
-            transition: transform 0.3s ease;
+            /* width: 360px; */
+            height: 480px;
+            /* border-radius: 20px; */
+            /* overflow: hidden; */
+            /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6); */
+            /* transition: transform 0.3s ease; */
         }
 
-        .profile-img:hover {
+        /* .profile-img:hover {
             transform: translateY(-10px);
-        }
+        } */
 
         .profile-img img {
             width: 100%;
