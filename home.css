@@ -7,9 +7,9 @@
             margin: 120px 0;
         }
 
-        .firstSection>div {
+        /* .firstSection>div {
             width: 40%;
-        }
+        } */
 
         .leftSection {
             font-size: 3.5rem;
@@ -64,23 +64,25 @@
             color: white;
         }
         .socialmedialinks{
-            display: grid;
-            width: 10%;
-            grid-template-columns: auto auto auto;
-            margin-top: 1vw;
+            display: flex;
+            width: 50%;
+            height: auto;
+            justify-content: left;
             align-items: center;
+            margin-top: 1vw;
+            /* margin-left: 1vw; */
         }
         .socialmedialinks a{
-            margin: 0 0.5vw;
+            margin: 0 0.45vw;
 
         }
-        .briefintro{
+        /* .briefintro{
             display: flex;
             width: 100%;
             font-family: sans-serif;
-            font-size: 2vw;
-            margin-top: 2vw;
-        }
+            font-size: 0.55em;
+            margin-top: 4vw;
+        } */
         .resumebtn{
             display: flex;
             justify-content: center;
@@ -88,13 +90,13 @@
             align-items: center;
             font-family: monospace;
             font-size: 1.8vw;
-            width: 25%;
+            width: 50%;
             height: 8vh;
-            margin-top: 1vw;
-            margin-left: 1vw;
+            margin-top: 0.5vw;
+            /* margin-left: 1vw; */
             background-color: rgb(169, 104, 230);
             /* border: 2px solid rgb(169, 104, 230); */
-            border-radius: 25px;
+            border-radius: 15px;
             transition: 0.3s;
         }
         .resumebtn a{
